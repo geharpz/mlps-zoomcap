@@ -1,0 +1,22 @@
+artifact_path: /home/ubuntu/mlps-zoomcap/src/03-training/experiment_tracking/mlruns/1/models/m-b06a921d5552469f9f4a94ca96f2589f/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.9.7
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.core.Booster
+    model_format: xgb
+    xgb_version: 2.1.4
+mlflow_version: 3.1.4
+model_id: m-b06a921d5552469f9f4a94ca96f2589f
+model_size_bytes: 2234839
+model_uuid: m-b06a921d5552469f9f4a94ca96f2589f
+prompts: null
+run_id: c8a51e73d9b74ec7bbdf7f57f47225e8
+utc_time_created: '2026-08-09 04:55:09.259604'
